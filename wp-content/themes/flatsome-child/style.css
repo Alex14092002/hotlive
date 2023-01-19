@@ -1,0 +1,111 @@
+/*
+Theme Name: Flatsome Child
+Description: This is a child theme for Flatsome Theme
+Author: UX Themes
+Template: flatsome
+Version: 3.0
+*/
+
+/*************** ADD CUSTOM CSS HERE.   ***************/
+
+@media only screen and (max-width: 48em) {
+    /*************** ADD MOBILE ONLY CSS HERE  ***************/
+}
+
+.fix-colum-1 {
+    max-height: 576px;
+    overflow: auto;
+    border-radius: 20px;
+}
+
+.fix-text-1 {
+    padding: 7px;
+}
+
+/* Css nút dowload */
+
+@media only screen and (max-width: 600px) {
+    .nut-tai-app {
+        width: 45%;
+        float: left;
+        flex-basis: 50%;
+    }
+    .anh-tai-app {
+        padding-top: 85px;
+    }
+}
+
+@media only screen and (min-width: 601px) {
+    .anh-tai-app {
+        width: 65% !important;
+        text-align: center;
+    }
+}
+
+/* Popup Điền Form ĐK */
+
+#formDK {
+    background: #37434ea1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000000;
+    visibility: hidden;
+}
+
+.keytran-formDK {
+    color: #fff;
+    background: #dadada;
+    padding: 30px 20px 0px 20px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 5px;
+    transform: translate(-50%, -50%);
+}
+
+#formDK button {
+    color: #fff;
+    padding: 0 10px;
+    top: 0;
+    right: -1em;
+    font-size: 10px;
+    position: absolute;
+    background-color: rgba(43, 43, 43, 0.8);
+    border: 1px solid rgb(218, 218, 218);
+}
+
+/* quảng cáo dưới */
+
+#keytran-quangcao {
+    position: fixed;
+    bottom: 0;
+    z-index: 999;
+    width: 100%;
+    max-width: 250px;
+}
+
+#keytran-quangcao button {
+    color: #fff;
+    padding: 0 10px;
+    right: -1em;
+    font-size: 10px;
+    position: absolute;
+    background-color: rgba(43, 43, 43, 0.8);
+    border: 1px solid rgb(218, 218, 218);
+}
+
+.kt-author {
+    padding: 2em;
+    border: 1px solid #ddd;
+}
+
+.kt-follow {
+    color: #81d742;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
